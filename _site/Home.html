@@ -1,0 +1,33 @@
+<!DOCTYPE"> 
+  <html > 
+  
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  
+<!-- External CSS Document(s) -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" /> 
+  
+<title>Online Embroidery Designer</title> 
+  
+<!-- Eternal JavaScript Document(s) -->
+  
+</head> 
+<body> 
+    <button>Clear</button>
+    <div class="custom-select" style="width:100px;">
+    <select>
+        <option value="0">Select Stitch:</option>
+        <option value="1">Straight Stitch</option>
+        <option value="2">Back Stitch</option>
+        <option value="3">Chain Stitch</option>
+        <option value="4">Running Stitch</option>
+    </select>
+    <label for="threadColor">Select thread color:</label>
+    <input type="color" id="threadColor" name="threadColor" value="#000000">
+
+    </div>
+    <canvas id="myCanvas" width='1000'  height='500'></canvas>
+    <script type="text/javascript" src="js/canvas.js"></script> 
+    <script type="text/javascript" src="fabric.js"></script>
+</body> 
+</html>

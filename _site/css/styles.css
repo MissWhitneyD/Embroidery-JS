@@ -1,0 +1,9 @@
+@charset "UTF-8"; 
+/* CSS Document */ 
+ 
+#myCanvas {
+
+   border: 1px;
+   border-color: black;
+   border-style: solid;
+}

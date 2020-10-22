@@ -1,0 +1,52 @@
+<!DOCTYPE"> 
+  <html > 
+  
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  
+<!-- External CSS Document(s) -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" /> 
+  
+<title>Online Embroidery Designer</title> 
+  
+<!-- Eternal JavaScript Document(s) -->
+  
+</head> 
+<body> 
+    <button name='clearAll' id="clearAll">Clear</button>
+    <div class="custom-select" style="width:100px;">
+    <select>
+        <option value="0">Select Stitch:</option>
+        <option value="1">Straight Stitch</option>
+        <option value="2">Back Stitch</option>
+        <option value="3">Chain Stitch</option>
+        <option value="4">Running Stitch</option>
+    </select>
+    </div>
+    <label for="threadColor">Select thread color:</label>
+    <input type="color" id="threadColor" name="threadColor" value="#000000">
+    <label name="freeModeLabel">FreeMode toggle on/off</label>
+    <label class="switch" >
+      <input type="checkbox" id="freeDraw">
+      <span class="slider round"></span>
+    </label>
+
+
+    <select id="imageSelect" class='imageSelect'>
+      <option value="0">Select design:</option>
+      <option value="rose.png">Rose</option>
+      <option value="leaf.png">Leaf</option>
+      <option value="roundWreath.png">Wreath</option>
+      <option value="sprig.png">Sprig</option>      
+    </select>
+
+    <div name="editMenu" id="editMenu">
+      <button id="deleteSelected">Delete Selected Items</button>
+      <button id="bringFront">Bring forward image</button>
+    </div>
+    
+    <canvas id="myCanvas" width='1000'  height='500'></canvas>
+    <script type="text/javascript" src="js/index.js"></script> 
+    <script type="text/javascript" src="node_modules/fabric/dist/fabric.js"></script>
+</body> 
+</html>

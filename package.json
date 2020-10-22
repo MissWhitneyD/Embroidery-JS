@@ -1,0 +1,15 @@
+{
+  "name": "embroidery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fabric": "^4.2.0",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC"
+}
